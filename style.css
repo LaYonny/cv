@@ -3,75 +3,116 @@
     
 }
 body{
-    background-color: black;
+    background-color: white;
 }
 
 header{
     height: 5rem;
     background-color: rgb(59, 92, 169);
     text-align: center;
-    padding: 1rem;
     align-items: flex-start;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .headlinks{
     text-align: right;
-  padding-right: 2rem;
+    padding-right: 2rem;
    
 }
 
-main{
-    background-color: green;
-}
+
 
 .container{
-    position:relative;
-    background-color: red;
-   /* flex-wrap: wrap; */
-    width: 1000px;
-    height: 600px;
-   
-}
-
-.imgBox{
-    position:absolute;
-    right: 0;
-    top: 50px;
-    width: 600px;
-    height: 600px;
-    text-align: center;
-    
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    align-items: center;
+    border: solid,1px;
+    height: 90vh;
+    background-color: #9191af;
  
-
-
 }
-
 .textBox{
-    position:absolute;
-    left: 0;
-    width:400px;
-    height: 600px;
-    background-color: lightgreen;
-   text-align: center;
-   
+    background-color: lightpink;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
 
+}
+
+.huvudInfotext{
+    text-align: center;
+    font-size: 30px;
+}
+
+.box1{
+    border: solid,3px,rgb(0, 255, 68);
+    font-size: 24px;
  
+}
 
+.box2{
+    border: solid,3px,rgb(0, 21, 255);
+    font-size: 24px;
+}
+.box3{
+    border: solid,3px,rgb(204, 255, 0);
+    font-size: 24px;
 }
 
 h1{
-    padding: 1rem;
+    font-size: 50px;
+}
+
+h2{
+    font-size: large;
 }
 
 .profilBild{
- height: 50%;
- width: 50%;
+    height: 90%;
+    width: 70%;
+    border: solid,5px,red;
 }
 
 footer{
     height: 5rem;
     background-color: rgb(59, 92, 169);
-    text-align: center;
     padding-top: 1rem;
-    padding: 0,5rem;
-    align-items: flex-end;
+    padding-bottom: 1rem;
+    
+}
+
+.infoFooter{
+    text-align: center;
+    font-size: 20px;
+}
+
+.headlinks{
+    text-align: left;
+    margin: 0;
+}
+
+.mailIcon{
+
+    height: 20px;
+    width: 20px;
+    padding-left: 100px;
+
+}
+
+.linkIcon{
+
+    height: 20px;
+    width: 20px;
+
+}
+
+.gitIcon{
+
+    height: 20px;
+    width: 20px;   
+
 }
