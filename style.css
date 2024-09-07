@@ -30,6 +30,7 @@ header{
     border: solid,1px;
     height: 90vh;
     background-color: #9191af;
+
  
 }
 .textBox{
@@ -39,8 +40,21 @@ header{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-right: 100px;
     
+}
 
+.testbox{
+    width: 500px;
+    height: 500px;
+}
+
+.profilBild{
+    height: 80%;
+    width: 70%;
+    border: solid,5px,red;
+    padding-left: 100px;
+    
 }
 
 .huvudInfotext{
@@ -71,11 +85,6 @@ h2{
     font-size: large;
 }
 
-.profilBild{
-    height: 90%;
-    width: 70%;
-    border: solid,5px,red;
-}
 
 footer{
     height: 5rem;
