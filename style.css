@@ -1,9 +1,10 @@
+
 *{
     margin: 0;
     
 }
 
-
+        /*Styling for my header and placement of the h1 text*/
 header{
     height: 5rem;
     background-color:#80b3ff;
@@ -11,9 +12,11 @@ header{
     align-items: flex-start;
     padding-top: 1rem;
     padding-bottom: 1rem;
+ 
 }
 
 
+      /*Makes button, background and styling*/
 nav{
     text-decoration: none;
     position: relative;
@@ -24,7 +27,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
-
+    
 nav button{
     background-color: transparent;
     padding: 5px;
@@ -41,13 +44,7 @@ nav a{
  
     
 }
-
-
-
-
-
-
-
+    /*Makes the main zize and color for my "main contentbox*/
 .container{
     display: flex;
     justify-content: center;
@@ -56,8 +53,8 @@ nav a{
     height: 90vh;
     background-color:#99c2ff;
 
- 
 }
+    /*Gives "main textbox ites zize and direction to the content inside*/
 .textBox{
     width: 600px;
     height: 500px;
@@ -71,7 +68,7 @@ nav a{
     
 }
 
-
+    /*Fixes so the image fits the box and gives it a "frame"*/
 .profilBild{
  
     width: 400px;
@@ -81,7 +78,7 @@ nav a{
     
 }
 
-
+    /*h2 styling and position over box1*/
 .huvudInfotext{
 
     text-align: left;
@@ -97,26 +94,14 @@ nav a{
     font-size: 24px;
  
 }
-
-.box2{
-
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
-
-}
-.box3{
-
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
-}
-
+        /* Gives a font and text zize for h1*/
 h1{
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     
     
 }
-
+    /*Gives footer a height value and places links/image in the center*/
 footer{
 
     height: 5rem;
@@ -132,7 +117,7 @@ footer{
     font-size: 20px;
 }
 
-
+        /*Gives image icons a zize value and fixes links*/
 .mailIcon{
 
     height: 20px;
@@ -141,16 +126,7 @@ footer{
 
 }
 
-.linkIcon{
-
-    height: 20px;
-    width: 20px;
-
-}
-
-.gitIcon{
-
-    text-decoration: none;
+.imgIcon{
     height: 20px;
     width: 20px;   
 
